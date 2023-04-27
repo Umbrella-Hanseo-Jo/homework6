@@ -120,7 +120,7 @@ headNode* initialize(headNode* h) {
 
 int freeList(headNode* h){
 	/* h와 연결된 listNode 메모리 해제
-	 * headNode도 해제되어야 함.
+	 * headNode도 해제되어야 함
 	 */
 	listNode* p = h->first;
 
